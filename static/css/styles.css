@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+}
+
+header {
+    background-color: #000;
+    height: 50px;
+}
+
+.menu {
+    flex-grow: 1;
+    padding-top: 10px;
+    width: 150px;
+    margin: 0 auto;
+}
+
+.menu ul {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu a {
+    font-size: 22px;
+    padding: 8px 10px;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: #ff3d00;
+}
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.info {
+    width: 270px;
+    margin: 0 auto;
+}
+
+.info h1 {
+    padding: 10px 0;
+}
+
+.info p {
+    padding: 5px 0;
+}
+
+.index {
+    max-width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 20px;
+    font-size: 50px;
+}
+
+.index img {
+    width: 500px;
+    height: auto;
+}
+
+.index .kitten {
+    width: 700px;
+    height: auto;
+}
+
+.reg {
+    padding-top: 60px;
+     margin: 0 auto;
+     text-align: center;
+}
+
+.reg p {
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+
+.reg p input {
+    padding-top: 5px;
+    font-size: 20px;
+}
+
+

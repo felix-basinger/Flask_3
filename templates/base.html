@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        {% block title %}
+            Мой сайт
+        {% endblock %}
+    </title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a href="{{ url_for('register') }}">
+                            Регистрация
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+
+        {% block content %}
+        <div class="main">
+            <p>Информация отсутствует</p>
+        </div>
+        {% endblock %}
+
+        <div class="footer">
+            <div class="info">
+                <h1>Свяжитесь с нами</h1>
+                <p>+7 (999) 999-99-99</p>
+                <p>example_mail@gmail.com</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

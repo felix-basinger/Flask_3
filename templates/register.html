@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Регистрация
+{% endblock %}
+
+{% block content %}
+    <div class="reg">
+        <form action="" method="post" class="form-contact">
+            <p><label>Name:<br></label><input type="text" name="first_name" value="" required></p>
+            <p><label>Surname:<br></label><input type="text" name="last_name" value="" required></p>
+            <p><label>E-mail:<br></label><input type="text" name="email" value="" required></p>
+            <p><label>Password:<br></label><input type="password" name=password value="" required></p>
+            <p><input type="submit" value="Registration"></p>
+        </form>
+    </div>
+{% endblock %}
